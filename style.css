@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #15173cd8;
+}
+.calculator {
+  background-color: #15173c;
+  width: 450px;
+  border-radius: 10px;
+}
+.calculator-input {
+  height: 100px;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 20px;
+  overflow-x: auto;
+}
+.calculator-button {
+  display: grid;
+  grid-template-areas:
+    "h1 h2 h3 h4"
+    "h5 h6 h7 h8"
+    "h9 h10 h11 h12"
+    "h13 h14 h15 h16"
+    "h17 h17 h18 h16";
+  padding: 20px;
+}
+.button {
+  padding: 25px 16px;
+  font-size: 16px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+.button:hover {
+  opacity: 0.5;
+}
+.button:first-child {
+  grid-area: h1;
+}
+.button:nth-child(2) {
+  grid-area: h2;
+}
+.button:nth-child(3) {
+  grid-area: h3;
+}
+.button:nth-child(4) {
+  grid-area: h4;
+}
+.button:nth-child(5) {
+  grid-area: h5;
+}
+.button:nth-child(6) {
+  grid-area: h6;
+}
+.button:nth-child(7) {
+  grid-area: h7;
+}
+.button:nth-child(8) {
+  grid-area: h8;
+}
+.button:nth-child(9) {
+  grid-area: h9;
+}
+.button:nth-child(10) {
+  grid-area: h10;
+}
+.button:nth-child(11) {
+  grid-area: h11;
+}
+.button:nth-child(12) {
+  grid-area: h12;
+}
+.button:nth-child(13) {
+  grid-area: h13;
+}
+.button:nth-child(14) {
+  grid-area: h14;
+}
+.button:nth-child(15) {
+  grid-area: h15;
+}
+.button:nth-child(16) {
+  grid-area: h16;
+}
+.button:nth-child(17) {
+  grid-area: h17;
+}
+.button:nth-child(18) {
+  grid-area: h18;
+}
+.button.equal {
+  background-color: rgb(249, 84, 76);
+  border-radius: 10px;
+}
